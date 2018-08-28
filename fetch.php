@@ -13,7 +13,7 @@ $result = $conn->query("SELECT pro.product_id, pro.category_id, pro.brand_id, ca
 
 if ($result->num_rows > 0) {?>
 
-<div class="containter table-container">
+<div class="container table-container">
   <div class="row">
     <div class="col-md-12">
       <table class="table table-bordered" id="example">
